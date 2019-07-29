@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "landedFlight",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "js-queue-items-flight",
+      "connection": ""
+    },
+    {
+      "type": "signalR",
+      "name": "signalRMessages",
+      "hubName": "flights",
+      "direction": "out"
+ 
+    }
+  ]
+}

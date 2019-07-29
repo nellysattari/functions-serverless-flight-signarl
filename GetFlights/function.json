@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "schedule": "*/10 * * * * *",
+      "name": "flightTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "$return",
+      "queueName": "js-queue-items-flight",
+      "connection": ""
+    }
+  ]
+}

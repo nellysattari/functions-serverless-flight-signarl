@@ -1,0 +1,9 @@
+{
+  "name": "FlightRealTimeAzureFunctionApp>",
+  "version": "0.0",
+  "description": "This is a Realtime dashboard to show all landed flights in real-time using multiple Azure functions",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "Nelly Sattari"
+}
